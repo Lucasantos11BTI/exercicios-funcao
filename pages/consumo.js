@@ -1,4 +1,4 @@
-const consumoMedio = (distancia, combustivel) => (distancia / combustivel).toFixed(3);
+let consumoMedio = (distancia, combustivel) => (distancia / combustivel).toFixed(3);
 
 
 let resultado1 = consumoMedio(500, 35.0);
